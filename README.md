@@ -6,15 +6,25 @@ Um diretório por item. O serviço que assina e serve o catálogo é o
 repositório é só o conteúdo que ele sincroniza.
 
 ```
-skills/<slug>/SKILL.md     skill (frontmatter com name, version, description)
-mcps/<slug>/               servidores MCP (em breve)
-plugins/<slug>/            plugins (em breve)
+skills/<slug>/SKILL.md       skill avulsa (frontmatter com name, version, description)
+mcps/<slug>/                 MCP avulso (em breve)
+plugins/<slug>/              plugin avulso (em breve)
+<marca>/skills/<slug>/       item de uma FAMÍLIA (marca com 2+ itens)
+<marca>/mcps/<slug>/         "
+<marca>/plugins/<slug>/      "
 ```
+
+**Modelo de pastas:** item avulso fica flat em `skills|mcps|plugins/<slug>/`;
+marca com dois ou mais itens ganha uma pasta própria no topo (`<marca>/`) com os
+itens agrupados por tipo dentro. Exemplo: `ponytail/` (família de 6 skills). As
+regras completas estão em [`CONVENTIONS.md`](./CONVENTIONS.md) — **siga esse
+modelo em toda adição futura.**
 
 ## Como uma skill chega no app
 
 1. `ms-naki-marketplace/sync/skills.json` lista cada item com `repo`
-   (`runaki-ai/marketplace`) e `path` (`skills/<slug>`).
+   (`runaki-ai/marketplace`) e `path` para a pasta-folha: `skills/<slug>` (avulso)
+   ou `<marca>/skills/<slug>` (família).
 2. `go run ./cmd/sync` baixa o tarball da `main`, lê `version` do frontmatter do
    `SKILL.md` em `path`, compara com a versão publicada e, se mudou, empacota só
    aquela pasta e publica uma versão nova (assinada Ed25519).

@@ -1,23 +1,24 @@
 ---
-version: 0.14.0
+version: 0.14.1
 name: higgsfield-product-photoshoot
 description: |
-  Generate brand-quality product images through Higgsfield product-photoshoot
-  prompt enhancement on GPT Image 2 / gpt_image_2. Entry point for professional
-  brand/product visuals.
-  Use when: "product photo", "studio shot", "lifestyle image", "Pinterest pin",
-  "hero/banner", "carousel", "ad creative", "Meta ads", "virtual try-on",
-  "model wearing", "person holding product", "closeup with hands",
-  "levitating/floating/splash product", "CGI/surreal product", "restyle",
-  "seasonal/aesthetic variation", or any product, brand, or paid-social creative.
-  Modes: product_shot, lifestyle_scene, closeup_product_with_person,
+  Gera imagens de produto com qualidade de marca pela melhoria de prompt do
+  product-photoshoot da Higgsfield no GPT Image 2 / gpt_image_2. Porta de entrada
+  para visuais profissionais de marca/produto.
+  Use quando: "foto de produto", "foto de estúdio", "imagem lifestyle", "pin do
+  Pinterest", "hero/banner", "carrossel", "criativo de anúncio", "Meta ads",
+  "provador virtual", "modelo vestindo", "pessoa segurando o produto", "closeup
+  com as mãos", "produto levitando/flutuando/com splash", "produto CGI/surreal",
+  "reestilizar", "variação sazonal/estética" ou qualquer criativo de produto,
+  marca ou mídia paga.
+  Modos: product_shot, lifestyle_scene, closeup_product_with_person,
   moodboard_pin, hero_banner, social_carousel, ad_creative_pack,
-  virtual_model_tryout, conceptual_product, restyle. Backend assembles the final
-  prompt; never freehand it.
-  NOT for: no-product text-to-image (use higgsfield-generate), branded avatar
-  video (use higgsfield-generate Marketing Studio), marketplace listing cards
-  (use higgsfield-marketplace-cards), Soul Character training (use
-  higgsfield-soul-id).
+  virtual_model_tryout, conceptual_product, restyle. O backend monta o prompt
+  final; nunca o escreva à mão.
+  NÃO para: texto-para-imagem sem produto (use higgsfield-generate), vídeo de
+  avatar de marca (use o Marketing Studio do higgsfield-generate), cards de
+  listagem de marketplace (use higgsfield-marketplace-cards), treino de Soul
+  Character (use higgsfield-soul-id).
 argument-hint: "[--mode <mode>] [--count N] [prompt]"
 allowed-tools: Bash
 ---

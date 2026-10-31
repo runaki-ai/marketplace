@@ -1,8 +1,8 @@
 ---
-version: 0.14.0
+version: 0.14.1
 name: higgsfield-video-explainer
 description: |
-  Compatibility entry for the former video explainer skill. Use when: the user explicitly invokes higgsfield-video-explainer or continues its existing workflow. NOT for: new generic explainer requests, ads, single clips, or unrelated video edits.
+  Entrada de compatibilidade para a antiga skill de vídeo explicativo. Use quando: o usuário invoca explicitamente higgsfield-video-explainer ou continua um fluxo já existente dela. NÃO para: novos pedidos genéricos de explicativo, anúncios, clipes avulsos ou edições de vídeo não relacionadas.
 argument-hint: "[topic or source files] [duration] [language] [aspect ratio]"
 allowed-tools: Bash
 ---

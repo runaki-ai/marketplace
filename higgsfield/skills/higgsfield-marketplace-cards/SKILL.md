@@ -1,17 +1,19 @@
 ---
-version: 0.14.0
+version: 0.14.1
 name: higgsfield-marketplace-cards
 description: |
-  Generate marketplace product image cards through Higgsfield: compliant
-  main image, secondary product images, and A+ style content modules. Use when
-  the user asks for marketplace listing images, product detail cards,
-  secondary product images, product infographics, lifestyle listing shots,
-  A+ style content, marketplace image sets, or sales-ready product visuals.
-  Backend owns marketplace compliance references and prompt templates; this skill
-  only routes user intent to the CLI.
-  NOT for generic brand product photography without marketplace/listing context
-  (use higgsfield-product-photoshoot), video generation or UGC ads (use
-  higgsfield-generate), or Soul Character training (use higgsfield-soul-id).
+  Gera cards de imagem de produto para marketplace pela Higgsfield: imagem
+  principal dentro das regras, imagens secundárias do produto e módulos de
+  conteúdo estilo A+. Use quando o usuário pedir imagens de listagem de
+  marketplace, cards de detalhe de produto, imagens secundárias do produto,
+  infográficos de produto, fotos de listagem em contexto de uso (lifestyle),
+  conteúdo estilo A+, conjuntos de imagens de marketplace ou visuais de produto
+  prontos para venda. O backend é dono das referências de conformidade e dos
+  templates de prompt; esta skill só roteia a intenção do usuário para o CLI.
+  NÃO para fotografia genérica de produto de marca sem contexto de
+  marketplace/listagem (use higgsfield-product-photoshoot), geração de vídeo ou
+  anúncios UGC (use higgsfield-generate), nem treino de Soul Character (use
+  higgsfield-soul-id).
 argument-hint: "[--scope main|product-images|aplus|full-set] [prompt]"
 allowed-tools: Bash
 ---

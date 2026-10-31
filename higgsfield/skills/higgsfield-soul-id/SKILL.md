@@ -1,17 +1,17 @@
 ---
-version: 0.14.0
+version: 0.14.1
 name: higgsfield-soul-id
 description: |
-  Train a Soul Character — a personalized model on a person's face that
-  Higgsfield uses for identity-faithful image and video generation.
-  Use when: "create my Soul", "train my face", "make my digital twin",
-  "build me an avatar", "learn my appearance", "create a character of me",
-  "set up identity for video", "I want my face in generated images".
-  Chain: train Soul (one-time, returns reference_id) → use in
-  higgsfield-generate via `--soul-id <id>` with models like
-  `text2image_soul_v2` or `soul_cinematic`.
-  NOT for: one-shot face swaps (use higgsfield-generate with --image),
-  named-character / non-photo avatars (use higgsfield-generate with prompt).
+  Treina um Soul Character — um modelo personalizado no rosto de uma pessoa que
+  a Higgsfield usa para gerar imagens e vídeos fiéis à identidade.
+  Use quando: "crie meu Soul", "treine meu rosto", "faça meu gêmeo digital",
+  "crie um avatar meu", "aprenda minha aparência", "crie um personagem de mim",
+  "configure a identidade para vídeo", "quero meu rosto nas imagens geradas".
+  Encadeamento: treine o Soul (uma vez, retorna reference_id) → use no
+  higgsfield-generate via `--soul-id <id>` com modelos como
+  `text2image_soul_v2` ou `soul_cinematic`.
+  NÃO para: troca de rosto pontual (use higgsfield-generate com --image),
+  personagens nomeados / avatares não fotográficos (use higgsfield-generate com prompt).
 argument-hint: "[name] [photo paths...]"
 allowed-tools: Bash
 ---

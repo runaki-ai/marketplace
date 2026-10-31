@@ -1,8 +1,8 @@
 ---
-version: 0.14.0
+version: 0.14.1
 name: higgsfield-faceless-video
 description: |
-  Create a finished faceless explainer, documentary, illustrated story or children's music video, or edit a previously created faceless video. Use when: "make a faceless video", "create a narrated explainer", "make a children's song video", "edit this faceless video". NOT for: a single silent clip, ads or UGC, unrelated footage edits, or script-only requests.
+  Cria um vídeo faceless (sem rosto) pronto — explicativo, documentário, história ilustrada ou clipe musical infantil — ou edita um vídeo faceless já criado. Use quando: "faça um vídeo faceless", "crie um explicativo narrado", "faça um clipe de música infantil", "edite este vídeo faceless". NÃO para: um único clipe mudo, anúncios ou UGC, edições de imagens avulsas ou pedidos só de roteiro.
 argument-hint: "[topic or source] [duration] [language] [aspect ratio]"
 allowed-tools: Bash
 ---

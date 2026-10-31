@@ -1,8 +1,8 @@
 ---
-version: 0.14.0
+version: 0.14.1
 name: higgsfield-brandkit
 description: |
-  Create and extend complete visual brand systems through the Higgsfield CLI and bundled deterministic local tooling: palettes, SVG logo marks, typography, mockups, social graphics, packaging, signage, merchandise, posters, presentation decks, and editable PPTX/PDF brandbooks. Preserves official supplied assets, persists approvals locally, and regenerates only dependent outputs. Use when: "create a brand kit", "make a visual identity", "design a logo and brandbook", "apply this logo to branded assets", "make packaging or signage", or "extend our existing branding". Chain with higgsfield-generate for general image production and Marketing Studio brand-kits when importing website metadata for ads. NOT for unbranded image generation (use higgsfield-generate), product catalog photography (use higgsfield-product-photoshoot), website implementation (use higgsfield-websites), or native Figma/Canva/PSD/AI delivery.
+  Cria e expande sistemas visuais de marca completos pelo CLI da Higgsfield e por ferramentas locais determinísticas inclusas: paletas, logos em SVG, tipografia, mockups, artes para redes sociais, embalagens, sinalização, brindes, pôsteres, apresentações e brandbooks editáveis em PPTX/PDF. Preserva os assets oficiais fornecidos, salva aprovações localmente e regenera só as saídas dependentes. Use quando: "crie um kit de marca", "faça uma identidade visual", "projete um logo e brandbook", "aplique este logo nas peças da marca", "faça embalagem ou sinalização" ou "expanda a identidade atual". Encadeie com higgsfield-generate para produção geral de imagens e com os brand-kits do Marketing Studio ao importar metadados de site para anúncios. NÃO para geração de imagem sem marca (use higgsfield-generate), fotografia de catálogo de produtos (use higgsfield-product-photoshoot), implementação de site (use higgsfield-websites) ou entrega nativa em Figma/Canva/PSD/AI.
 argument-hint: "[brand brief or existing assets] [requested deliverables]"
 allowed-tools: Bash
 ---

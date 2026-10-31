@@ -1,25 +1,25 @@
 ---
-version: 0.14.0
+version: 0.14.1
 name: higgsfield-generate
 description: |
-  Generate images/videos/3D assets/audio via Higgsfield AI. Defaults:
-  GPT Image 2.5 for image/design/text, Seedance 2.5 for
-  video, Nano Banana 2 for cartoon characters, Marketing
-  Studio for ads, Seed Audio 1.0 for audio.
-  Use when: "generate an image", "make a video", "animate
-  this photo", "image-to-video", "edit/stylize/remix this
-  image", "reframe this video", "edit this video from a
-  sketch", "create a 3D model/GLB", "create a sound effect",
-  "make music", "text-to-audio", "create an ad", "make a UGC
-  video", "unboxing", "presenter video", "import product from
-  URL", or "analyze video virality". Supports generic generation,
-  workflows, Marketing Studio, and Virality Predictor.
-  Chain with higgsfield-soul-id for face/identity consistency.
-  NOT for: Soul training, brand systems/brandbooks (use
-  higgsfield-brandkit), photoshoots, cards, YouTube thumbnails
-  (use higgsfield-youtube-thumbnail), explainers (use
-  higgsfield-video-explainer), playable games/assets (use
-  higgsfield-websites), or TTS.
+  Gera imagens/vídeos/assets 3D/áudio pela Higgsfield AI. Padrões:
+  GPT Image 2.5 para imagem/design/texto, Seedance 2.5 para
+  vídeo, Nano Banana 2 para personagens cartoon, Marketing
+  Studio para anúncios, Seed Audio 1.0 para áudio.
+  Use quando: "gere uma imagem", "faça um vídeo", "anime
+  esta foto", "imagem-para-vídeo", "edite/estilize/remixe esta
+  imagem", "reenquadre este vídeo", "edite este vídeo a partir de um
+  esboço", "crie um modelo 3D/GLB", "crie um efeito sonoro",
+  "faça música", "texto-para-áudio", "crie um anúncio", "faça um vídeo
+  UGC", "unboxing", "vídeo com apresentador", "importe produto de
+  uma URL" ou "analise a viralidade do vídeo". Suporta geração genérica,
+  workflows, Marketing Studio e Virality Predictor.
+  Encadeie com higgsfield-soul-id para consistência de rosto/identidade.
+  NÃO para: treino de Soul, sistemas de marca/brandbooks (use
+  higgsfield-brandkit), fotos de produto, cards, thumbnails de YouTube
+  (use higgsfield-youtube-thumbnail), explicativos (use
+  higgsfield-video-explainer), jogos/assets jogáveis (use
+  higgsfield-websites) ou TTS.
 argument-hint: "[prompt-or-analysis-request] [--model <name>] [--image|--video <path-or-id>]"
 allowed-tools: Bash
 ---

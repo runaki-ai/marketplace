@@ -1,8 +1,8 @@
 ---
-version: 0.14.0
+version: 0.14.1
 name: higgsfield-youtube-thumbnail
 description: |
-  Create high-click-through YouTube thumbnails and vertical video covers through the Higgsfield CLI. Builds a truthful information-gap concept, preserves up to three referenced identities, supports logos and controlled variants, renders the main image with Nano Banana Pro, and applies focused Seedream edits. Use when: "make a YouTube thumbnail", "thumbnail for this video", "MrBeast-style cover", "Shorts cover", or "Instagram video cover". Chain after any video workflow once its truthful topic and visual direction are known. NOT for producing the video itself (use higgsfield-generate), product catalog photos (use higgsfield-product-photoshoot), or marketplace cards (use higgsfield-marketplace-cards).
+  Cria thumbnails de YouTube de alta taxa de clique e capas de vídeo vertical pelo CLI da Higgsfield. Monta um conceito honesto de "lacuna de informação", preserva até três identidades de referência, suporta logos e variantes controladas, renderiza a imagem principal com o Nano Banana Pro e aplica edições pontuais com o Seedream. Use quando: "faça uma thumbnail de YouTube", "thumbnail para este vídeo", "capa estilo MrBeast", "capa de Shorts" ou "capa de vídeo do Instagram". Encadeie depois de qualquer fluxo de vídeo, uma vez conhecidos o tema real e a direção visual. NÃO para produzir o vídeo em si (use higgsfield-generate), fotos de catálogo de produto (use higgsfield-product-photoshoot) ou cards de marketplace (use higgsfield-marketplace-cards).
 argument-hint: "[video-topic-or-title] [--image <face-or-logo>] [--ratio 16:9|9:16|4:5]"
 allowed-tools: Bash
 ---
